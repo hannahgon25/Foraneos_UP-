@@ -1,1 +1,3 @@
 *.swp
+backend/src/__pycache__/
+*.pyc

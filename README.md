@@ -6,10 +6,10 @@ Hola esta es mi rama.
 
 ### Progreso
 
-| Cosa                           | Estado | Comentario                                                   |
-| :----------------------------- | :----: | ------------------------------------------------------------ |
-| API con python y uvicorn       |   1%   | Dockerfile incompleto y app/main.py vacio                    |
-| Contenedor de la base de datos | 100%?  | Tal vez faltan usuarios pero ya importa los `.sql` que estén en la carpeta de `db-init` |
+| Cosa  | Estado | Comentario                                                   |
+| :---- | :----: | ------------------------------------------------------------ |
+| API   |  75%   | Ya ligado al `.yml` y al contenedor de mysql, faltan queries y seguridad. |
+| MySQL |  99%   | Faltan usuarios que no sean root.                            |
 
 ## Como iniciar los contenedores con Docker
 
